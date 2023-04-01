@@ -37,3 +37,9 @@ section {
 body {
     margin: 0%;
 }
+
+.Dream-Big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
