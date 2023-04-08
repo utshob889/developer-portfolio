@@ -1,19 +1,21 @@
-h1 {
+body {
     font-family: 'Lato', sans-serif;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
+
 }
 
 .half-width {
     width: 50%;
-    padding: 2%;
+    padding: 5%;
 }
 
 .half-width img {
@@ -42,4 +44,37 @@ body {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid;
+}
+
+#border1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#border2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 102, 0), rgb(255, 191, 0));
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
